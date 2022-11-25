@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace mahtLibrary
 {
-    public class Class1
+    public class MathClass
     {
+        public static int Sum(int x, int y) {
+            return x + y; 
+              }
     }
 }
